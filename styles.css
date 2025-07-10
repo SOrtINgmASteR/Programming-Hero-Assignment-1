@@ -1,0 +1,140 @@
+/* Shared styles */
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.text-primary {
+    color: #4E47FF;
+    font-weight: 800;
+}
+
+.btn-general {
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-general:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(78, 71, 255, 0.3);
+}
+
+/* Header styles */
+.header {
+    background-image: url("B12A01-landing-launchpad-main/Assets/Hero-bg.png");
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+
+.banner {
+    max-width: 905px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    margin: 50px auto;
+    padding: 100px;
+}
+
+.banner-title {
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+/* Main styles - Action Section */
+.action {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+    padding: 100px;
+}
+
+.action-details {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+.action-title {
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.action-description {
+    font-size: 20px;
+    font-weight: 400;
+    color: #252432;
+}
+
+.action-image {
+    border-radius: 25px;
+}
+
+
+/* Main styles - Productive User Section */
+.productive-user {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    margin: 50px auto;
+    padding: 20px 0px;
+    background-color: #e6e5fd;
+    border-radius: 20px;
+}
+
+.productive-users-title {
+    font-weight: 700px;
+    font-size: 38px;
+}
+
+.data-container {
+    display: flex;
+    gap: 150px;
+
+}
+
+.data-header {
+    margin: 0px;
+    font-weight: 800;
+    font-size: 80px;
+    color: #4E47FF;
+}
+
+.data-description {
+    margin: 0px;
+    font-weight: 300px;
+    font-size: 20px;
+    color: #000000;
+}
