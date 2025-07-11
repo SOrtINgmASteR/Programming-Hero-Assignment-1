@@ -22,6 +22,12 @@ This project is part of Programming Hero's web development course assignments. T
 ![Final Result](readme%20elements/Final%20Result.png)
 
 
+## 📦 Resources
+
+- Programming Hero Repository Link: `https://github.com/ProgrammingHero1/B12A01-landing-launchpad`
+
+Icons, background images & figma design are provided in this repository.
+
 
 ## 💻 Installation and Setup
 
@@ -31,6 +37,5 @@ This project is part of Programming Hero's web development course assignments. T
    git clone https://github.com/SOrtINgmASteR/Programming-Hero-Assignment-1.git
    ```
 
-2. Open the project folder
-3. Open `index.html` in your browser
-
+2. Open the project folder.
+3. Open `index.html` in your browser.
